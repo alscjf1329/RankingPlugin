@@ -1,0 +1,12 @@
+name: RankingPlugin
+version: '${version}'
+main: org.dev.rankingplugin.RankingPlugin
+api-version: '1.18'
+
+
+
+commands:
+  명령어이름:
+    description: test 명령어 설명
+    usage: /test, /테스트, /ㅌㅅㅌ 중 하나를 치면 작동합니다.
+    aliases: [랭킹, ㄹㅋ, rank]
